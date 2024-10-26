@@ -18,7 +18,7 @@ public class AnimalHospitalMainV0 {
         catHospital.set(cat);
         catHospital.checkup();
 
-//        dogHospital.set(cat);
+//        dogHospital.collection.set(cat);
 
         dogHospital.set(dog);
         Dog biggerDog = dogHospital.bigger(new Dog("멍멍이2", 200));
